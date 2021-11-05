@@ -23,7 +23,7 @@ void init_adc(void) {
     ADCON0bits.CHS = 0b0000; // AN0
 	
     /* 
-	   0 = conversion A/D finalizada
+       0 = conversion A/D finalizada
        1 = conversion A/D en curso, se finaliza por HW
      */
     ADCON0bits.GO_DONE = 0;
